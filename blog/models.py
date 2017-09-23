@@ -3,7 +3,7 @@ from django.utils import timezone
 
 
 #models.Model 表示 post是一个Django模型
-# foreignkey 指向另一个模型的连接
+# models.foreignkey 指向另一个模型的连接
 class Post(models.Model):
 	author = models.ForeignKey('auth.User')
 	title = models.CharField(max_length=200)
