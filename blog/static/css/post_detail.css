@@ -1,0 +1,16 @@
+/*文章标题*/
+h2{
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, Helvetica, STKaiti, SimSun, serif;
+	color: #666666;
+	font-size: 24px;
+	font-style: bold;
+	line-height: 36px;
+}
+/*文章正文*/
+p{
+	font-family: "lucida grande", "lucida sans unicode", lucida, helvetica, "Hiragino Sans GB", "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;;
+	color:#000000;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 26px;
+}

@@ -1,0 +1,30 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="{% static 'css/post_detail.css' %}">
+  	<title>{{ post.title }}</title>
+  
+</head>
+
+<body>
+  <div style="margin: 2% 5% 2% 5%">
+      <table>
+          <tr>
+              <td width="60%">
+                  <div style="padding: 2% 8% 5% 8%; border: 1px solid LightGrey;">
+                  	<h2>{{ post.title }}</h2>
+                  	<hr>
+                  	<p class="post-text">{{ post.text|linebreaks }}</p>
+                  </div>
+              
+              </td>
+							<td width="16%">
+              </td>
+          </tr>
+      </table>
+  </div>
+</body>
